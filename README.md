@@ -30,3 +30,18 @@ import wbdata
 
 indicators = {'NY.GDP.MKTP.KD.ZG': 'gdp_growth'}
 data = wbdata.get_dataframe(indicators)
+├── notebooks/ # Jupyter notebooks with step-by-step analysis
+│ ├── 01_data_download.ipynb
+│ ├── 02_data_cleaning.ipynb
+│ └── 03_complete_analysis.ipynb
+├── src/ # Python modules
+│ ├── data_loader.py
+│ ├── data_cleaner.py
+│ └── visualization.py
+├── outputs/ # Generated results
+│ ├── figures/ # Static visualizations
+│ ├── dashboards/ # Interactive HTML dashboards
+│ └── reports/ # CSV summaries
+├── data/ # Data files
+├── sql/ # SQL queries
+└── requirements.txt # Dependencies
